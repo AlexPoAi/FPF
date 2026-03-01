@@ -147,5 +147,24 @@ c53aa0b (HEAD -> claude/organize-repo-domains-gxPBh)
 
 ---
 
-**Последнее обновление:** 2026-03-01 (после успешного git push)
+## 🔐 Audit безопасности (добавлено)
+
+**Проверены оба репо на утечки API ключей:**
+
+✅ **FPF репо:**
+- Нет hardcoded API ключей
+- OAuth2-based скрипты (безопасны)
+- .gitignore создан и закоммичен
+
+✅ **VK-offee репо:**
+- Telegram token из environment (безопасно)
+- OpenAI API из environment (безопасно)
+- Railway secrets в dashboard (безопасно)
+- .gitignore уже был в месте
+
+📊 **Результат:** Оба репо ЧИСТЫЕ, нет утечек
+
+---
+
+**Последнее обновление:** 2026-03-01 (безопасность проверена)
 **Статус сессии:** In Progress — готово к следующей стадии (Domain Entities)
