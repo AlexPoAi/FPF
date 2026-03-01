@@ -1,0 +1,67 @@
+# Security: API Keys, Credentials, Tokens
+credentials.json
+token.pickle
+*.key
+*.pem
+*.p12
+.env
+.env.local
+.env.*.local
+
+# Google API
+.google-credentials/
+token.json
+credentials/
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# API Keys & Secrets
+*.secret
+*secret*
+*api_key*
+*api-key*
+*apikey*
+*AUTH_TOKEN*
+*ACCESS_TOKEN*
+.aws/
+.azure/
+
+# IDE & Local
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env.local
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Build/Dist
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
