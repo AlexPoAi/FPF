@@ -2,9 +2,9 @@
 
 > Pattern language and core specification for admissible action in problematic engineering, research, and mixed human/AI work.
 
-**Author:** Anatoly Levenchuk (with AI-agents assistance)
-**Version:** May 2026
-**Status:** Normative kernel, "eternal alpha" - already used in working projects and development programmes, while still evolving.
+- **Author:** Anatoly Levenchuk (with AI-agents assistance)
+- **Version:** May 2026
+- **Status:** Normative kernel, "eternal alpha" - already used in working projects and development programmes, while still evolving.
 
 FPF helps when insight is not enough by itself: meanings, claims, alternatives,
 evidence, boundaries, publication forms, and work decisions must remain stable
@@ -72,44 +72,52 @@ If you need to write or review patterns, inspect `E.8` and `E.19`.
 Use this repository as an entry menu, not as one universal starter trunk:
 
 1. **Project alignment**
-   Use this when: responsibilities, working method, plans, and what actually happened are being mixed.
-   Typical stabilizing result: a clean separation between responsibility, method, plan, and actual execution, plus a first worksheet, alignment frame, or term sheet.
-   First inspect: `A.1.1`, `A.15`, `A.15.2 / A.15.3`, and `B.5.1`. Consider `F.11` when method/work vocabulary itself must be aligned across contexts, `F.9` where bridge discipline matters, and `F.17 (UTS)` when vocabulary stabilization is live.
+
+   - **Use this when:** responsibilities, working method, plans, and what actually happened are being mixed.
+   - **Typical stabilizing result:** a clean separation between responsibility, method, plan, and actual execution, plus a first worksheet, alignment frame, or term sheet.
+   - **First inspect:** `A.1.1`, `A.15`, `A.15.2 / A.15.3`, and `B.5.1`. Consider `F.11` when method/work vocabulary itself must be aligned across contexts, `F.9` where bridge discipline matters, and `F.17 (UTS)` when vocabulary stabilization is live.
 
 2. **Partly-said / language-state discovery**
-   Use this when: you have a serious cue, concern, or emerging idea that is too important to ignore but too early to present as a settled claim, requirement, or work record.
-   Typical stabilizing result: a short preservation-and-support note that says what was noticed, how mature it is, and what kind of work should inspect it next.
-   First inspect: `C.2.2a`, `C.2.LS / C.2.4-C.2.7`, `A.16 / A.16.1 / A.16.2`, and `B.4.1 / B.5.2.0`; consider endpoint patterns only when the live question actually belongs to an endpoint.
+
+   - **Use this when:** you have a serious cue, concern, or emerging idea that is too important to ignore but too early to present as a settled claim, requirement, or work record.
+   - **Typical stabilizing result:** a short preservation-and-support note that says what was noticed, how mature it is, and what kind of work should inspect it next.
+   - **First inspect:** `C.2.2a`, `C.2.LS / C.2.4-C.2.7`, `A.16 / A.16.1 / A.16.2`, and `B.4.1 / B.5.2.0`; consider endpoint patterns only when the live question actually belongs to an endpoint.
 
 3. **Boundary unpacking / claim routing**
-   Use this when: contract, API, protocol, compliance, or SLA language is mixing rules, gates, duties, and evidence in one blurred boundary story.
-   Typical stabilizing result: a Claim Register or routed atomic claim set.
-   First inspect: `A.6`, `A.6.B`, and `A.6.C`. If the first question is only what description you are seeing, inspect `A.6.RSIG`; when the boundary text hides overloaded quality or action language, add `A.6.P`, then `A.6.Q` or `A.6.A`.
+
+   - **Use this when:** contract, API, protocol, compliance, or SLA language is mixing rules, gates, duties, and evidence in one blurred boundary story.
+   - **Typical stabilizing result:** a Claim Register or routed atomic claim set.
+   - **First inspect:** `A.6`, `A.6.B`, and `A.6.C`. If the first question is only what description you are seeing, inspect `A.6.RSIG`; when the boundary text hides overloaded quality or action language, add `A.6.P`, then `A.6.Q` or `A.6.A`.
 
 4. **Admissible comparison / local choice / selected-set publication**
-   Use this when: you need to compare alternatives honestly, choose among already-available options, keep a disciplined shortlist live, or publish a selected set without hiding the comparison logic.
-   Typical stabilizing result: declared characteristics, a comparison frame, candidate-pool policy, `ChoiceResult`, selected-set publication, or another local decision record.
-   First inspect: `A.19:0`, `A.17-A.19`, `A.19.CN`, `C.11`, `G.0`, `C.18`, `C.19`, and `G.5`; use `C.11` when the live work is choosing now versus probing or computing more before choosing, and use `C.24` only for call-planning/checkpoint-return work.
+
+   - **Use this when:** you need to compare alternatives honestly, choose among already-available options, keep a disciplined shortlist live, or publish a selected set without hiding the comparison logic.
+   - **Typical stabilizing result:** declared characteristics, a comparison frame, candidate-pool policy, `ChoiceResult`, selected-set publication, or another local decision record.
+   - **First inspect:** `A.19:0`, `A.17-A.19`, `A.19.CN`, `C.11`, `G.0`, `C.18`, `C.19`, and `G.5`; use `C.11` when the live work is choosing now versus probing or computing more before choosing, and use `C.24` only for call-planning/checkpoint-return work.
 
 5. **Generator / state-of-the-art / NQD / OEE portfolio kit**
-   Use this when: your first deliverable is a reusable search, harvest, generator, novelty/diversity archive, or portfolio scaffold, not a one-off recommendation.
-   Typical stabilizing result: a reusable kit that names scope, schools of thought, variants, declared `CharacteristicSpace`, descriptor map, archive policy, and shortlist-ready outputs.
-   First inspect: `A.0`, `B.5.2.1`, `C.18`, `C.19`, `G.0`, `G.1`, `G.2`, and `G.5`. Consider `A.19` when characteristic-space comparison is already central, and `C.17-C.19` when creative search or explore/exploit policy is live.
+
+   - **Use this when:** your first deliverable is a reusable search, harvest, generator, novelty/diversity archive, or portfolio scaffold, not a one-off recommendation.
+   - **Typical stabilizing result:** a reusable kit that names scope, schools of thought, variants, declared `CharacteristicSpace`, descriptor map, archive policy, and shortlist-ready outputs.
+   - **First inspect:** `A.0`, `B.5.2.1`, `C.18`, `C.19`, `G.0`, `G.1`, `G.2`, and `G.5`. Consider `A.19` when characteristic-space comparison is already central, and `C.17-C.19` when creative search or explore/exploit policy is live.
 
 6. **Publication, rendering, explanation, and same-entity reading**
-   Use this when: the main job is to publish, restate, explain, re-render, repair, or compare something already written or displayed without quietly changing what it is about or what it authorizes.
-   Typical stabilizing result: a publication/use-boundary note, rewrite, explanation note, repair note, or bounded comparison note that keeps the claim-bearing source, publication form, carrier/display, reader use, and work-relevant source relation distinct.
-   First inspect: `E.17`, `A.15.4`, `A.6.3.CR`, `A.6.3.RT`, `A.6.3.CSC`, `E.17.EFP`, `E.17.ID.CR`, `E.17.AUD.LHR`, and `E.17.AUD.OOTD`.
+
+   - **Use this when:** the main job is to publish, restate, explain, re-render, repair, or compare something already written or displayed without quietly changing what it is about or what it authorizes.
+   - **Typical stabilizing result:** a publication/use-boundary note, rewrite, explanation note, repair note, or bounded comparison note that keeps the claim-bearing source, publication form, carrier/display, reader use, and work-relevant source relation distinct.
+   - **First inspect:** `E.17`, `A.15.4`, `A.6.3.CR`, `A.6.3.RT`, `A.6.3.CSC`, `E.17.EFP`, `E.17.ID.CR`, `E.17.AUD.LHR`, and `E.17.AUD.OOTD`.
 
 7. **Temporal claim adequacy under effort, window, resistance, and rhythm**
-   Use this when: a claim about timing, trend, delay, inertia, freshness, decay, or action window is being treated as if time did not change what can be done.
-   Typical stabilizing result: a temporal adequacy note that names the live time window, effort/resistance relation, update rhythm, and what must be rechecked before use.
-   First inspect: `C.27`, `C.16`, `A.3.3`, `A.6.T`, and the neighboring evidence or decision pattern that owns the live claim.
+
+   - **Use this when:** a claim about timing, trend, delay, inertia, freshness, decay, or action window is being treated as if time did not change what can be done.
+   - **Typical stabilizing result:** a temporal adequacy note that names the live time window, effort/resistance relation, update rhythm, and what must be rechecked before use.
+   - **First inspect:** `C.27`, `C.16`, `A.3.3`, `A.6.T`, and the neighboring evidence or decision pattern that owns the live claim.
 
 8. **Causal-use / counterfactual-support repair**
-   Use this when: a correlation, explanation, model output, scenario, or comparison is being used as if it already justified intervention, responsibility, or counterfactual choice.
-   Typical stabilizing result: a causal-use repair note that separates observation, prediction, intervention support, responsibility support, and engineering justification.
-   First inspect: `C.28`, `A.10`, `B.3`, `D.5`, `G.5`, and `G.9`; use the local decision pattern only when an actual choice is being made.
+
+   - **Use this when:** a correlation, explanation, model output, scenario, or comparison is being used as if it already justified intervention, responsibility, or counterfactual choice.
+   - **Typical stabilizing result:** a causal-use repair note that separates observation, prediction, intervention support, responsibility support, and engineering justification.
+   - **First inspect:** `C.28`, `A.10`, `B.3`, `D.5`, `G.5`, and `G.9`; use the local decision pattern only when an actual choice is being made.
 
 The older abduction reasoning loop (`A.0 -> A.1-A.3 -> B.3 -> F.17 -> E.9`) is here but not the universal
 default anymore. Use `B.3` when engineering justification / trust / evidence transport is
@@ -143,16 +151,16 @@ convergence on a single option.
 
 With FPF, the work can become one disciplined structure:
 
-`problem framing`
--> `bounded contexts` (product / infrastructure / safety / evaluation)
--> `decision criteria` (cost / latency / controllability / risk / time-to-value)
--> `portfolio of alternatives` (buy / fine-tune / build / hybrid)
--> `evidence and test gaps`
--> `starter DRR when the decision rationale must be published`
--> `starter UTS when vocabulary must be stabilized`
--> `aligned outputs` for engineering / management / research / assurance
+- `problem framing`
+- `bounded contexts` (product / infrastructure / safety / evaluation)
+- `decision criteria` (cost / latency / controllability / risk / time-to-value)
+- `portfolio of alternatives` (buy / fine-tune / build / hybrid)
+- `evidence and test gaps`
+- `starter DRR when the decision rationale must be published`
+- `starter UTS when vocabulary must be stabilized`
+- `aligned outputs` for engineering / management / research / assurance
 
-The arrows are a compact explanatory sketch, not a required workflow.
+The list is a compact explanatory sketch, not a required workflow.
 The same shape can be used for a plant rollout, a laboratory protocol, a
 construction design change, a supply-chain decision, or an AI-agent platform.
 The point is one underlying body of reasoning that can be reviewed, revised,
@@ -374,11 +382,13 @@ If you are new to FPF, start with prompt `1` or `5` below. The later examples as
 
 ### A starter prompt that usually works
 
-> You have the FPF specification as a file.
-> Help me structure [project / problem / programme].
-> Use plain language for an engineer-manager.
-> Propose: (1) bounded contexts / specialisations, (2) decision criteria, (3) key alternatives, (4) responsibility boundaries, and (5) missing evidence or tests before commitment.
-> Introduce internal FPF names only when they add precision.
+```text
+You have the FPF specification as a file.
+Help me structure [project / problem / programme].
+Use plain language for an engineer-manager.
+Propose: (1) bounded contexts / specialisations, (2) decision criteria, (3) key alternatives, (4) responsibility boundaries, and (5) missing evidence or tests before commitment.
+Introduce internal FPF names only when they add precision.
+```
 
 In practice the most productive usage is to treat FPF as a design kit and reference model: ask for bounded-context maps, decision criteria, option portfolios, structured reasoning artefacts, publication forms, and responsibility-boundary contracts for your domain, then iterate.
 
@@ -387,12 +397,16 @@ Below are example prompts; adapt them to your domain and language.
 ### 1. Turn a vague project into measurable decision criteria
 
 **Goal:** get a step-by-step chain from vague idea to measurable characteristics, indicators, scoring, and decision criteria.
+
 **Prompt:**
-> You have the FPF specification loaded as a file.
-> We are starting work on [brief description of project], design has not yet begun.
-> Propose a step-by-step chain for characterising the objects of our project, normalising measurements, defining indicators, scoring alternatives, and choosing design decisions.
-> Include steps that I may have forgotten.
-> Write in the language of engineer-managers, not in FPF jargon.
+
+```text
+You have the FPF specification loaded as a file.
+We are starting work on [brief description of project], design has not yet begun.
+Propose a step-by-step chain for characterising the objects of our project, normalising measurements, defining indicators, scoring alternatives, and choosing design decisions.
+Include steps that I may have forgotten.
+Write in the language of engineer-managers, not in FPF jargon.
+```
 
 Typical follow-ups:
 - "Now take object [X] from this chain and work it through in detail: list 10-15 characteristics, their scales, indicators, and a rough dashboard format for decision-makers."
@@ -401,10 +415,14 @@ Typical follow-ups:
 ### 2. Build a disciplined vocabulary for a domain (UTS, shared term sheet)
 
 **Goal:** build a disciplined vocabulary for a niche field using FPF Part F.
+
 **Prompt:**
-> You have the FPF specification loaded.
-> Produce a Unified Term Sheet (UTS) block for the core terms of [your domain]: at least 10 rows.
-> Use the term-sheet discipline from Part F (especially F.17 / F.18): distinguish Tech vs Plain names, show SenseCells for 2-3 key bounded contexts, and flag risky aliases.
+
+```text
+You have the FPF specification loaded.
+Produce a Unified Term Sheet (UTS) block for the core terms of [your domain]: at least 10 rows.
+Use the term-sheet discipline from Part F (especially F.17 / F.18): distinguish Tech vs Plain names, show SenseCells for 2-3 key bounded contexts, and flag risky aliases.
+```
 
 Follow-up for quantitative structure:
 - "For the same domain, propose a Q-bundle that captures the quality of [your object / work system] and produce a UTS block for its characteristics (CHR) and indicators."
@@ -412,17 +430,25 @@ Follow-up for quantitative structure:
 ### 3. Design better names for ambiguous roles, programmes, and artefacts (Name Cards)
 
 **Goal:** design better names for roles, programs, and artefacts when existing labels are misleading.
+
 **Prompt:**
-> Using the naming-card discipline (F.18), develop a complete Name Card for what to call [current name of an entity] in the following situation:
-> [short narrative of current practice and complaints about the existing name]
-> Do not assume current names are correct; perform an honest search on the local Pareto-front of candidate names and explain trade-offs.
+
+```text
+Using the naming-card discipline (F.18), develop a complete Name Card for what to call [current name of an entity] in the following situation:
+[short narrative of current practice and complaints about the existing name]
+Do not assume current names are correct; perform an honest search on the local Pareto-front of candidate names and explain trade-offs.
+```
 
 ### 4. Make the route from principles to work explicit (P2W / E.TGA graph)
 
 **Goal:** make from principles to work explicit for a concrete project.
+
 **Prompt:**
-> Using E.TGA and TEVB, unpack the canonical P2W flow for my situation [describe your project].
-> Give the list of nodes (P1...Pn), their Kinds, and explain each node in engineer-manager language.
+
+```text
+Using E.TGA and TEVB, unpack the canonical P2W flow for my situation [describe your project].
+Give the list of nodes (P1...Pn), their Kinds, and explain each node in engineer-manager language.
+```
 
 Follow-up:
 - "Now build a mini Flow specification table for this P2W graph".
@@ -430,11 +456,15 @@ Follow-up:
 ### 5. Organise a mixed team of humans and AI agents
 
 **Goal:** turn a set of people, copilots, and specialised agents into a disciplined work architecture.
+
 **Prompt:**
-> We have the FPF specification loaded as a file.
-> We need to organise a mixed team of humans and AI agents for [project / programme].
-> Propose a bounded-context map: contexts, local vocabularies, roles, bridges, responsibility-boundary artefacts, decision gates, and where human approval is required.
-> Keep the final answer practical for engineers / managers and avoid FPF jargon.
+
+```text
+We have the FPF specification loaded as a file.
+We need to organise a mixed team of humans and AI agents for [project / programme].
+Propose a bounded-context map: contexts, local vocabularies, roles, bridges, responsibility-boundary artefacts, decision gates, and where human approval is required.
+Keep the final answer practical for engineers / managers and avoid FPF jargon.
+```
 
 Typical follow-ups:
 - "Now define autonomy budgets, allowed tools, escalation paths, and publication forms / views for each context / agent."
@@ -443,9 +473,13 @@ Typical follow-ups:
 ### 6. Harvest competing schools of thought and build a portfolio (state-of-the-art pack)
 
 **Goal:** use Part G to organise a frontier discipline around first principles.
+
 **Prompt:**
-> We are searching for the state of the art in [discipline].
-> Using G.2 and G.4, extract: (a) TraditionCards for competing schools of thought; (b) OperatorCards for their main operators / update rules; (c) a first draft of a state-of-the-art pack and selector-ready portfolio. This is expected to be a long text, therefore start with only TraditionCards.
+
+```text
+We are searching for the state of the art in [discipline].
+Using G.2 and G.4, extract: (a) TraditionCards for competing schools of thought; (b) OperatorCards for their main operators / update rules; (c) a first draft of a state-of-the-art pack and selector-ready portfolio. This is expected to be a long text, therefore start with only TraditionCards.
+```
 
 ## Citation
 
